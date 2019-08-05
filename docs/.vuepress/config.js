@@ -22,6 +22,8 @@ module.exports = {
           collapsable: false,
           children: [
             '1',
+            '2',
+            '3'
           ]
         }
       ],
