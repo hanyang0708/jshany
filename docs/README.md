@@ -15,11 +15,15 @@ footer: 如有侵权 请联系我呦 👉 is.hanyang@foxmail.com
 ---
 
 <script>
-var _hmt = _hmt || [];
-(function() {
-    var hm = document.createElement("script");
-    hm.src = "https://hm.baidu.com/hm.js?66da64f341044cd6a65caf0bd34899e8";
-    var s = document.getElementsByTagName("script")[0]; 
-    s.parentNode.insertBefore(hm, s);
-})();
+export default {
+    mounted(){
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?66da64f341044cd6a65caf0bd34899e8";
+            var s = document.getElementsByTagName("script")[0]; 
+            s.parentNode.insertBefore(hm, s);
+        })();
+    }
+}
 </script>
